@@ -1,0 +1,40 @@
+body {
+    background-color: #222;
+}
+
+label {
+    margin: 1rem 0 0.5rem;
+    font-family: "Arial";
+    font-weight: bold;
+    display: block;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    color: #EEE;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 2px solid;
+    color: inherit;
+    background-color: transparent;
+    box-sizing: border-box;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    outline: none;
+}
+
+textarea {
+    height: 150px;
+}
+
+.invalido {
+    border: 2px solid #F02;
+}
+
+.erro {
+    color: #F02;
+}
